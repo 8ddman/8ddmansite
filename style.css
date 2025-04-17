@@ -122,3 +122,6 @@ img {
   border-radius: 5px;
   border: 10px solid #595959;
 }
+video {
+    position: absolute
+}
