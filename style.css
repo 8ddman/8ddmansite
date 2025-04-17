@@ -1,0 +1,121 @@
+body { 
+  background-color: #000000;
+}
+
+h1 {
+  color: #dfdfdf;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #181818;
+  border: 2px solid #292929;
+  border-radius: 5px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+p {
+  color: #d9d9d9;
+  text-align: center;
+  font-size: 16px;
+  background-color: #333333;
+  border: 2px solid #595959;
+  border-radius: 5px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+}
+
+.secondp {
+  color: #FF1493;
+}
+/* topnav background color and properties*/
+.topnav {
+  background-color: #4d4d4d;
+  overflow: hidden;
+  text-align: center; 
+}
+
+/*link style*/
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* hover change color */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add color active tab */
+.topnav a.active {
+  background-color: #3656c9;
+  color: white;
+  border-radius: 4px;
+}
+/*topnav button clicky thing alignment*/
+.topnav {
+    display: inline-block;
+    list-style-type: none;
+}
+/* Topnav border*/
+.topnav {
+  border: 4px solid #262626;
+  border-radius: 8px;
+  padding: 4px;
+}
+/* Media query for small screens, phones and stuff idk? */
+ @media (max-width: 768px) {
+  .topnav {
+    width: auto; /*200px if broken*/
+    height: auto; /*200px if broke*/
+    overflow: hidden;
+  } 
+}
+.secondp {
+  font-size: 24px;
+  background-color: yellow;
+  border: 2px solid #FF1493;
+  border-radius: 5px;
+  padding: 4px;
+}
+/* jonas warning centerer*/
+.secondp {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Optional: Add a slight translation */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to headings and paragraphs */
+h1, p, img {
+  animation: fadeIn 0.5s ease-in-out;
+}
+/* images */
+img {
+  width: 300px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 10px solid #595959;
+}
