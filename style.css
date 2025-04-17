@@ -1,8 +1,9 @@
 body { 
-  <video autoplay="" muted="" loop="" src="stars.mp4" id="stars" oncanplay="this.play()"></video>
+  background-color: #000000;
 }
 
 h1 {
+  position: absolute
   color: #dfdfdf;
   margin-left: 20px;
   text-align: center;
@@ -17,6 +18,7 @@ h1 {
 }
 
 p {
+  position: absolute
   color: #d9d9d9;
   text-align: center;
   font-size: 16px;
@@ -111,6 +113,7 @@ h1, p, img {
 }
 /* images */
 img {
+  position: absolute
   width: 300px;
   height: 400px;
   display: block;
